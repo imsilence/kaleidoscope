@@ -1,0 +1,11 @@
+addr: 0.0.0.0
+db:
+services:
+  - port: 8888
+    type: ssh
+    backend:
+        type: ssh
+        host: 10.0.0.2
+        port: 22
+    authentication:
+      type: db

@@ -1,0 +1,19 @@
+Last login: Sat Feb  8 23:59:41 2020 from 10.0.0.1
+[root@centos ~]# rz -y
+rz waiting to receive.**B0100000023be50�**B0900000000a87c�**B0300400000f37f�**B0300800000d588�**B0100000023be50�**B0800000000022d�[root@centos ~]# ls -la
+total 104
+dr-xr-x---.  4 root root   270 Feb  8 23:37 .
+dr-xr-xr-x. 17 root root   244 Nov 24 14:30 ..
+-rw-------.  1 root root  1258 Nov 24 22:19 anaconda-ks.cfg
+-rw-------.  1 root root  6027 Feb  9 00:00 .bash_history
+-rw-r--r--.  1 root root    18 Dec 29  2013 .bash_logout
+-rw-r--r--.  1 root root   176 Dec 29  2013 .bash_profile
+-rw-r--r--.  1 root root   176 Dec 29  2013 .bashrc
+-rw-r--r--.  1 root root   100 Dec 29  2013 .cshrc
+-rw-r--r--   1 root root 29991 Jan 11 14:44 DevOps软件架构师行动指南.mmap
+drwxr-----   3 root root    19 Dec 29 22:23 .pki
+-rw-------   1 root root  1258 Feb  8 22:59 root@192.168.130.209
+drwx------   2 root root    25 Feb  8 23:03 .ssh
+-rw-r--r--.  1 root root   129 Dec 29  2013 .tcshrc
+-rw-r--r--   1 root root 35889 Dec 31 08:52 网站安全攻防秘籍.mmap
+[root@centos ~]# 
