@@ -59,7 +59,7 @@ func (s *Session) HandleRequest(reqs <-chan *ssh.Request) {
 				strconv.FormatInt(time.Now().UnixNano(), 10),
 				s.conn.Ctx.LocalAddr(),
 				s.conn.Ctx.RemoteAddr(),
-			), ":", "##")
+			), ":", "#")
 
 			file, err := os.Create(path.Join("logs", name))
 			defer file.Close()
